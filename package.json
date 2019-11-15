@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/nitslaszlo/JedlikVueJsStarter"
+    "url": "https://github.com/nitslaszlo/JedlikVueJsBootstrapVueStarter.git"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
