@@ -65,7 +65,7 @@ export default class HelloWorldPlus extends Vue {
   }
 
   private hozzadNap(): void {
-    this.napok.push(this.inputNap.toLowerCase());
+    this.napok.push(this.iNap);
     this.inputNap = "";
   }
 
