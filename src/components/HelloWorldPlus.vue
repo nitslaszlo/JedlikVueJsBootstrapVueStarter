@@ -52,9 +52,9 @@ export default class HelloWorldPlus extends Vue {
   }
 
   private onClick(művelet: string): void {
-    if (művelet === "+" && this.felkialtojelDarab < 10) {
+    if (művelet === "+") {
       this.felkialtojelDarab++;
-    } else if (művelet === "-" && this.felkialtojelDarab > 1) {
+    } else if (művelet === "-") {
       this.felkialtojelDarab--;
     }
   }
