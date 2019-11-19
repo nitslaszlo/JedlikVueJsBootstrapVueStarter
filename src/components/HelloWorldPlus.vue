@@ -51,6 +51,10 @@ export default class HelloWorldPlus extends Vue {
     this.inputNap = "";
   }
 
+  created() {
+    setInterval(() => (this.nev += "X"), 3000);
+  }
+
   private onClick(művelet: string): void {
     if (művelet === "+") {
       this.felkialtojelDarab++;
